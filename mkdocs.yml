@@ -1,0 +1,30 @@
+
+site_name: Ronja's Knowledge Garden
+site_description: 我的个人知识库与数字花园
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - GPT 问答: gpt-notes/index.md
+  - 科研笔记: research/index.md
+  - 优质收藏: bookmarks/index.md
